@@ -32,7 +32,7 @@ public class CustomerServiceImpl implements CustomerService {
     }
 
     @Override
-    public void deleteByid(UUID customerId) {
+    public void deleteById(UUID customerId) {
         log.debug("Deleting a customer ...");
     }
 }
